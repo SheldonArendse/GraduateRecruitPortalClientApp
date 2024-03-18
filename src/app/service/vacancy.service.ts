@@ -17,6 +17,7 @@ export class VacancyService{
 
     public saveVacancy(vacancyPost: Vacancy): Observable<Vacancy>
     {
+        //wrong API call
        return this.http.post<Vacancy>(`${this.apiServerURL}/gradrecruitment/vacancy/save_vacancyPost`,vacancyPost);
     }
 

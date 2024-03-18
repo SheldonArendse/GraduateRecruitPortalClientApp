@@ -22,6 +22,7 @@ export class GraduateProfileService{
 
     public signup(profile: Graduate): Observable<Graduate>
     {
+        //working call
         return this.http.post<Graduate>(`${this.apiServerURL}/graduate/signup`,profile);
     }
     
@@ -32,6 +33,7 @@ export class GraduateProfileService{
 
     public login(graduate: Graduate): Observable<UserSession>
     {
+        //working call
         return this.http.post<UserSession>(`${this.apiServerURL}/graduate/login`,graduate);
     }
 }

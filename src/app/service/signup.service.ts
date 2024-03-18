@@ -15,10 +15,12 @@ export class SignupService{
     }
 
      public register(signupGraduate: Graduate): Observable<Graduate>{
+        // api call doesnt exsist
          return this.http.post<Graduate>(`${this.apiServerURL}/gradrecruitment/signup/save_registration`,signupGraduate);
      }
 
      public update(updateGraduate: Graduate): Observable<Graduate>{
+        // api call doesnt exsist
         return this.http.put<Graduate>(`${this.apiServerURL}/gradrecruitment/signup/update_registration`,updateGraduate);
 
      }

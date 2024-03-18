@@ -5,6 +5,8 @@ import { GraduateProfileService } from '../service/graduate-profile.service';
 import { Graduate } from '../model/graduate';
 import { Router } from '@angular/router';
 
+//Works with API
+
 @Component({
   selector: 'app-signup',
   templateUrl: './signup.component.html',

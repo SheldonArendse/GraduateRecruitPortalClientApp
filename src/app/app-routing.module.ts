@@ -37,7 +37,7 @@ const routes: Routes = [
   { path: 'departments-list', component: CompanyDepartmentsListComponent },
   { path: 'recruiter-homepage', component: CompanyHomepageComponent },
   { path: 'graduate-information', component: GraduateInformationComponent },
-  { path: 'vacancy-post', component: VacancyPostComponent },
+  //duplicate { path: 'vacancy-post', component: VacancyPostComponent },
   { path: 'recruitment-list', component: RecruitmentListComponent },
   { path: 'browse', component: BrowseCandidatesComponent },
   { path: 'vacancy-pdf-view', component: VacancyPdfViewComponent }

@@ -6,6 +6,7 @@ import { Graduate } from '../model/graduate';
 import { GraduateProfileService } from '../service/graduate-profile.service';
 import { ToastrUtility } from '../utility/toast.utility';
 
+//Working with API
 @Component({
   selector: 'app-login',
   templateUrl: './login.component.html',
