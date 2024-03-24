@@ -17,6 +17,6 @@ private apiServerURL: string = environment.baseURL;
 
     public addExperience(experience: Experience): Observable<Experience>{
         //api needs change
-        return this.http.post<Experience>(`${this.apiServerURL}/gradrecruitment/experience/save_experience`,experience);
+        return this.http.post<Experience>(`${this.apiServerURL}/experience/save`,experience);
     }
 }

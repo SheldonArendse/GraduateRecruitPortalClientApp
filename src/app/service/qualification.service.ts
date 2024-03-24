@@ -18,6 +18,6 @@ export class QualificationService{
 
     public addQualification(qualification: Qualification): Observable<Qualification>{
         //api needs change
-        return this.http.post<Qualification>(`${this.apiServerURL}/gradrecruitment/qualification/save_qualification`,qualification);
+        return this.http.post<Qualification>(`${this.apiServerURL}/qualification/save`,qualification);
     }
 }
